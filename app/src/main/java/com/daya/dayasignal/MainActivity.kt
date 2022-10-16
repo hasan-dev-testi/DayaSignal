@@ -18,7 +18,6 @@ class MainActivity : AppCompatActivity() {
 
         binding.textView.setOnClickListener {
             toast("Hasan's Library is working...")
-            backCalled()
         }
 
         onBack { toast("No way to exit") }
