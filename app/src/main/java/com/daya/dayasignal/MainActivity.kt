@@ -2,10 +2,10 @@ package com.daya.dayasignal
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.daya.dayapush.backCalled
+import com.daya.dayapush.onBack
 import com.daya.dayapush.toast
 import com.daya.dayasignal.databinding.ActivityMainBinding
-import com.daya.dayasignal.utils.backCalled
-import com.daya.dayasignal.utils.onBack
 
 class MainActivity : AppCompatActivity() {
 
